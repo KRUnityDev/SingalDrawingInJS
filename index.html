@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <style href="mainStyle.css">
+            .inputField{
+            min-width:30px;
+            max-width:40px;
+            }       
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+
+    <body>
+        <div style="float:left; width:100%;" align="center">
+            Number of subfunctions: <br>
+            <form id="subFunctionsNumberForm" action="#">
+                <input type="number" name="subfunctionsNumber" class="inputField" value="1">
+                <input type="submit" value="Set">
+            </form>
+        </div>
+        <div style="float:left; width:100%;" align="center">
+        Equal: <form id="equal" action="#">      
+        </form>
+        </div>
+        
+        <canvas  id="myCanvas" width="600" height="600" style="border:1px solid #000000; padding: 0; margin: auto; display: block;"></canvas>
+        <script src="main.js"></script>
+    </body>
+
+
+</html>
